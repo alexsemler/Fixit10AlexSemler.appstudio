@@ -37,6 +37,22 @@
             "customerAdd", 
             "customerAdd.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "customerUpdate", 
+            "customerUpdate.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "extraXP", 
+            "extraXP.json"
+          ]
         }
       ], 
       "configxml": null, 
@@ -51,7 +67,7 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "customerAdd", 
+      "firstform": "extraXP", 
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 

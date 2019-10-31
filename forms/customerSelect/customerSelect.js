@@ -9,9 +9,9 @@ checkBtn.onclick=function(){
         results = JSON.parse(req1.responseText)
         console.log(results)
     if (results.length == 0)
-        NSB.MsgBox("There are no pets of that type.")
+        NSB.MsgBox("There are no customers of that type.")
     else {        
-        // output the names of all the dogs
+        // output the names of all the customers
         var message = ""
         for (i = 0; i <= results.length - 1; i++)
             message = message + results[i][1] + "\n"
